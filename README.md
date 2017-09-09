@@ -1,0 +1,2 @@
+# CStdString
+CString string clone
