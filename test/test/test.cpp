@@ -15,8 +15,10 @@ int main()
 	CStdString strVal1(_T("THIS IS A STRING   "));
 	
 	// OutputDebugString(strVal1 + _T("\n")); // operator+() has some bugs
-	// strVal1 += _bstr_t(" plus a BSTR string");
-	// strVal1 += '.';
+	CStdString str8(_T("\n"));
+	// CStdString strVal9 = strVal1 + str8;
+	strVal1 += _bstr_t(" plus a BSTR string");
+	strVal1 += '.';
 
 	// Some conversion functions can be chained together
 
