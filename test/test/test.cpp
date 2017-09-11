@@ -14,7 +14,7 @@ int main()
 	// with operator+()
 	CStdString strVal1(_T("THIS IS A STRING   "));
 	
-	// OutputDebugString(strVal1 + _T("\n"));
+	// OutputDebugString(strVal1 + _T("\n")); // operator+() has some bugs
 	// strVal1 += _bstr_t(" plus a BSTR string");
 	// strVal1 += '.';
 
