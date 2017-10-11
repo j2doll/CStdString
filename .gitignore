@@ -1,5 +1,5 @@
 ﻿################################################################################
-# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다. (KOREAN)
 ################################################################################
 
 *.opendb
@@ -14,3 +14,14 @@
 *.log
 *.pch
 *.idb
+
+# append ignore files
+*.lib
+*.dll
+*.pdb
+*.filters
+*.user
+*.ilk
+*.cbt
+moc_*.*
+
